@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/double-pendulum.git
 cd double-pendulum
 pip install -r requirements.txt
 ```
-Next, just tun the simulation and animation
+Next, just run the simulation and animation
 ```
 python src-double-pendulum.py
 python src-animation-pendulum.py
@@ -29,11 +29,14 @@ python src-animation-pendulum.py
 ## Visual results
 
 After running the python files, you will see:
+
 Animation: chaotic motion of the double pendulum.
 
 ![Double Pendulum Simulation](gif-double-pendulum.gif)
 
+
 Energy plot: shows that the total energy remains approximately constant (for small time steps).
+
 ![Energy plot](img-energy-analysis.png)
 
 
