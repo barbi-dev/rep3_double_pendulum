@@ -16,14 +16,14 @@ Additionally, it includes trajectory traces and energy diagnostics to verify con
 
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/yourusername/double-pendulum.git
-cd double-pendulum
+git clone https://github.com/yourusername/simulation_double_pendulum.git
+cd simulation_double_pendulum
 pip install -r requirements.txt
 ```
 Next, just run the simulation and animation
 ```
-python src-double-pendulum.py
-python src-animation-pendulum.py
+python pendulum_lagrangian.py
+python pendulum_animation.py
 ```
 
 ## Visual results
